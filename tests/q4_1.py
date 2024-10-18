@@ -6,8 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> highest_rating == 9.2
-          True
+          >>> assert highest_rating == 9.2
           """,
           'hidden': False,
           'locked': False

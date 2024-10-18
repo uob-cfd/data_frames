@@ -6,8 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> abs(average_rating_in_forties - 8.2571428571428562) < 1e-5
-          True
+          >>> assert abs(average_rating_in_forties - 8.2571428571428562) < 1e-5
           """,
           'hidden': False,
           'locked': False
